@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1aa450134f99cc4ab76ead7ebbdc9cd, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  _clips:
+  - ID: Death
+    Clip: {fileID: 8300000, guid: 982c640192f20f14d98ebad897fd20b7, type: 3}
+    Volume: 0.7
+    Loop: 0
+  - ID: EatSound
+    Clip: {fileID: 8300000, guid: 1fff5c1cf57a90c46900fa3c78ede70e, type: 3}
+    Volume: 0.5
+    Loop: 0
+  - ID: DeletePartOfBody
+    Clip: {fileID: 8300000, guid: 48d0757b07fdd4443919b9e5d6132d91, type: 3}
+    Volume: 0.5
+    Loop: 0
+  - ID: SpeedUp
+    Clip: {fileID: 8300000, guid: 4a78bb164706abf4aaf4ee72b29a0310, type: 3}
+    Volume: 0.5
+    Loop: 0
+  - ID: ClickSound
+    Clip: {fileID: 8300000, guid: 4cd31a276846bf24ca9ad5b3d7687e91, type: 3}
+    Volume: 0.5
+    Loop: 0
+  - ID: GamePlayMusic
+    Clip: {fileID: 8300000, guid: fced73bb3e4b72440a7fc7ae30b3dcfd, type: 3}
+    Volume: 0.5
+    Loop: 1
+  - ID: Main menu music
+    Clip: {fileID: 8300000, guid: f3a391bbbe083fa42a14ef601f5f7f53, type: 3}
+    Volume: 0.25
+    Loop: 1
+  - ID: OnCalibrationDone
+    Clip: {fileID: 8300000, guid: 5d7995ab943bdaf469da940cf3078f8e, type: 3}
+    Volume: 1
+    Loop: 0

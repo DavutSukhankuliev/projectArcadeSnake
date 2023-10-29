@@ -1,0 +1,724 @@
+fileFormatVersion: 2
+guid: 591c98d257d4d784e935335bc1475e30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8631508167617481887
+    second: UIButtonPressed
+  - first:
+      213: 2861449265314630333
+    second: UIButtonActive
+  - first:
+      213: 6970654583689492069
+    second: UIMute
+  - first:
+      213: -6317560640556142254
+    second: UIUnMute
+  - first:
+      213: -503183411886270472
+    second: UIPause
+  - first:
+      213: -6389927279610646763
+    second: UIButtonPlay
+  - first:
+      213: 3064348644245950499
+    second: UIButtonAccept
+  - first:
+      213: 8473126241291408892
+    second: UIButtonDecline
+  - first:
+      213: 3046986357825360846
+    second: UIGeneralBackground
+  - first:
+      213: 9119731173259688963
+    second: UICircleUnmarked
+  - first:
+      213: -4527429282869345775
+    second: UICircleMarked
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UIButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 1124
+        width: 570
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 262, y: 96}
+        - {x: 226, y: 96}
+        - {x: 90, y: 98}
+        - {x: -19, y: 99}
+        - {x: -141, y: 97}
+        - {x: -262, y: 95}
+        - {x: -272, y: 92}
+        - {x: -279, y: 87}
+        - {x: -283, y: 76}
+        - {x: -283, y: 63}
+        - {x: -280, y: 50}
+        - {x: -278, y: 13}
+        - {x: -278, y: -11}
+        - {x: -280, y: -35}
+        - {x: -281.6283, y: -58.431885}
+        - {x: -282, y: -79}
+        - {x: -274, y: -90}
+        - {x: -261, y: -95}
+        - {x: 15, y: -97}
+        - {x: 267, y: -95}
+        - {x: 277, y: -86}
+        - {x: 281, y: -78}
+        - {x: 281, y: -65}
+        - {x: 279, y: -44}
+        - {x: 278, y: -18}
+        - {x: 278, y: 2}
+        - {x: 278, y: 23}
+        - {x: 279, y: 42}
+        - {x: 281, y: 61}
+        - {x: 281, y: 71}
+        - {x: 280, y: 85}
+        - {x: 271, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c09be52f649c770800000000000000
+      internalID: 8631508167617481887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIButtonActive
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 909
+        width: 568
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 259, y: 93.5}
+        - {x: 225, y: 94.5}
+        - {x: 90, y: 96.5}
+        - {x: -20, y: 96.5}
+        - {x: -141, y: 95.5}
+        - {x: -262, y: 95}
+        - {x: -272, y: 92}
+        - {x: -279, y: 87}
+        - {x: -283, y: 76}
+        - {x: -283, y: 63}
+        - {x: -280, y: 50}
+        - {x: -278, y: 13}
+        - {x: -278, y: -11}
+        - {x: -280, y: -35}
+        - {x: -281.6283, y: -58.431885}
+        - {x: -282, y: -79}
+        - {x: -274, y: -90}
+        - {x: -261, y: -95}
+        - {x: 15, y: -97.5}
+        - {x: 267, y: -95}
+        - {x: 277, y: -86}
+        - {x: 281, y: -78}
+        - {x: 281, y: -65}
+        - {x: 279, y: -44}
+        - {x: 278, y: -18}
+        - {x: 278, y: 2}
+        - {x: 278, y: 23}
+        - {x: 279, y: 42}
+        - {x: 281, y: 61}
+        - {x: 281, y: 71}
+        - {x: 279, y: 84.5}
+        - {x: 270, y: 91.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba81e932f8e5b720800000000000000
+      internalID: 2861449265314630333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMute
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 797
+        width: 138
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 59}
+        - {x: 24.5, y: 65}
+        - {x: 9.5, y: 66}
+        - {x: -4, y: 67}
+        - {x: -18.5, y: 66}
+        - {x: -24.5, y: 65}
+        - {x: -45, y: 59}
+        - {x: -57, y: 49}
+        - {x: -63, y: 36}
+        - {x: -65.5, y: 23}
+        - {x: -66.5, y: 5}
+        - {x: -66.5, y: -9}
+        - {x: -64.5, y: -24}
+        - {x: -62.5, y: -38}
+        - {x: -57, y: -50}
+        - {x: -45, y: -60}
+        - {x: -32, y: -64}
+        - {x: -16.5, y: -66}
+        - {x: 2.5, y: -67}
+        - {x: 21.5, y: -66}
+        - {x: 38, y: -62}
+        - {x: 51, y: -55}
+        - {x: 58.5, y: -46}
+        - {x: 64.5, y: -31}
+        - {x: 67, y: -14}
+        - {x: 67, y: 6}
+        - {x: 65.5, y: 23}
+        - {x: 61, y: 40}
+        - {x: 54, y: 51}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566b2c8696dbcb060800000000000000
+      internalID: 6970654583689492069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIUnMute
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 797
+        width: 134
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 60.5}
+        - {x: 24.5, y: 65}
+        - {x: 9.5, y: 66}
+        - {x: -3.5, y: 67}
+        - {x: -18.5, y: 66}
+        - {x: -24.5, y: 65}
+        - {x: -45.5, y: 60}
+        - {x: -57.5, y: 50}
+        - {x: -63.5, y: 37}
+        - {x: -65.5, y: 23}
+        - {x: -66.5, y: 5}
+        - {x: -66.5, y: -9}
+        - {x: -64.5, y: -24}
+        - {x: -62.5, y: -38}
+        - {x: -56.5, y: -49}
+        - {x: -44.5, y: -59}
+        - {x: -32.5, y: -63}
+        - {x: -16.5, y: -66}
+        - {x: 2.5, y: -67}
+        - {x: 21.5, y: -66}
+        - {x: 38, y: -62.5}
+        - {x: 50.5, y: -56}
+        - {x: 58.5, y: -46}
+        - {x: 64, y: -31.5}
+        - {x: 66, y: -14.5}
+        - {x: 67, y: 6}
+        - {x: 65.5, y: 23}
+        - {x: 62, y: 38.5}
+        - {x: 55, y: 50.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25179acb1148358a0800000000000000
+      internalID: -6317560640556142254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIPause
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 949
+        width: 134
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 59}
+        - {x: 24.5, y: 65}
+        - {x: 9.5, y: 66}
+        - {x: -4, y: 67}
+        - {x: -18.5, y: 66}
+        - {x: -24.5, y: 65}
+        - {x: -45, y: 59}
+        - {x: -57, y: 49}
+        - {x: -63, y: 36}
+        - {x: -65.5, y: 23}
+        - {x: -66.5, y: 5}
+        - {x: -66.5, y: -9}
+        - {x: -64.5, y: -24}
+        - {x: -62.5, y: -38}
+        - {x: -57, y: -50}
+        - {x: -45, y: -60}
+        - {x: -32, y: -64}
+        - {x: -16.5, y: -66}
+        - {x: 2.5, y: -67}
+        - {x: 21.5, y: -66}
+        - {x: 38, y: -62}
+        - {x: 51, y: -55}
+        - {x: 58.5, y: -46}
+        - {x: 64.5, y: -31}
+        - {x: 67, y: -14}
+        - {x: 67, y: 6}
+        - {x: 65.5, y: 23}
+        - {x: 61, y: 40}
+        - {x: 54, y: 51}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f756a55a555409f0800000000000000
+      internalID: -503183411886270472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIButtonPlay
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1079
+        width: 136
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 60}
+        - {x: 24.5, y: 65}
+        - {x: 9.5, y: 66}
+        - {x: -3.5, y: 67}
+        - {x: -18.5, y: 66}
+        - {x: -24.5, y: 65}
+        - {x: -45.5, y: 60}
+        - {x: -57.5, y: 50}
+        - {x: -63.5, y: 37}
+        - {x: -65.5, y: 23}
+        - {x: -66.5, y: 5}
+        - {x: -66.5, y: -9}
+        - {x: -64.5, y: -24}
+        - {x: -62.5, y: -38}
+        - {x: -56.5, y: -49}
+        - {x: -44.5, y: -59}
+        - {x: -32.5, y: -63}
+        - {x: -16.5, y: -66}
+        - {x: 2.5, y: -67}
+        - {x: 21.5, y: -66}
+        - {x: 39.5, y: -64}
+        - {x: 50.5, y: -56}
+        - {x: 58.5, y: -46}
+        - {x: 64.5, y: -31}
+        - {x: 67.5, y: -14}
+        - {x: 67.5, y: 6}
+        - {x: 65.5, y: 23}
+        - {x: 62.5, y: 40}
+        - {x: 56.5, y: 52}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51faa369efa6257a0800000000000000
+      internalID: -6389927279610646763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIButtonAccept
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1105
+        width: 132
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 59}
+        - {x: 24.5, y: 65}
+        - {x: 9.5, y: 66}
+        - {x: -4, y: 67}
+        - {x: -18.5, y: 66}
+        - {x: -24.5, y: 65}
+        - {x: -45, y: 59}
+        - {x: -57, y: 49}
+        - {x: -63, y: 36}
+        - {x: -65.5, y: 23}
+        - {x: -66, y: 5}
+        - {x: -66, y: -9}
+        - {x: -64.5, y: -24}
+        - {x: -62.5, y: -38}
+        - {x: -57, y: -50}
+        - {x: -45, y: -60}
+        - {x: -32, y: -64}
+        - {x: -16.5, y: -66}
+        - {x: 2.5, y: -67}
+        - {x: 21.5, y: -66}
+        - {x: 38, y: -62}
+        - {x: 51, y: -55}
+        - {x: 58.5, y: -46}
+        - {x: 64.5, y: -31}
+        - {x: 66, y: -14}
+        - {x: 66, y: 6}
+        - {x: 65.5, y: 23}
+        - {x: 61, y: 40}
+        - {x: 54, y: 51}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320da383bd0c68a20800000000000000
+      internalID: 3064348644245950499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIButtonDecline
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1376
+        width: 137
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 60}
+        - {x: 24.5, y: 65}
+        - {x: 9.5, y: 66}
+        - {x: -3.5, y: 67}
+        - {x: -18.5, y: 66}
+        - {x: -24.5, y: 65}
+        - {x: -45.5, y: 60}
+        - {x: -57.5, y: 50}
+        - {x: -63.5, y: 37}
+        - {x: -65.5, y: 23}
+        - {x: -66.5, y: 5}
+        - {x: -66.5, y: -9}
+        - {x: -64.5, y: -24}
+        - {x: -62.5, y: -38}
+        - {x: -56.5, y: -49}
+        - {x: -44.5, y: -59}
+        - {x: -32.5, y: -63}
+        - {x: -16.5, y: -66}
+        - {x: 2.5, y: -67}
+        - {x: 21.5, y: -66}
+        - {x: 39.5, y: -64}
+        - {x: 50.5, y: -56}
+        - {x: 58.5, y: -46}
+        - {x: 64.5, y: -31}
+        - {x: 67.5, y: -14}
+        - {x: 67.5, y: 6}
+        - {x: 65.5, y: 23}
+        - {x: 62.5, y: 40}
+        - {x: 56.5, y: 52}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf517358c67969570800000000000000
+      internalID: 8473126241291408892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGeneralBackground
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 251
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec354a5e2f1194a20800000000000000
+      internalID: 3046986357825360846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UICircleUnmarked
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 672
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 20}
+        - {x: 43, y: 29}
+        - {x: 35, y: 38}
+        - {x: 25, y: 45}
+        - {x: 14, y: 50}
+        - {x: 0, y: 51}
+        - {x: -13, y: 50}
+        - {x: -27.5, y: 43}
+        - {x: -37.5, y: 35}
+        - {x: -45, y: 25}
+        - {x: -50, y: 14}
+        - {x: -51, y: 1}
+        - {x: -50, y: -15}
+        - {x: -45, y: -28}
+        - {x: -36, y: -38}
+        - {x: -25, y: -46}
+        - {x: -13, y: -51}
+        - {x: 2, y: -52}
+        - {x: 19, y: -50}
+        - {x: 31, y: -42}
+        - {x: 38, y: -34}
+        - {x: 45, y: -25}
+        - {x: 50, y: -13}
+        - {x: 51, y: 3}
+      - - {x: 29.5, y: -17}
+        - {x: 23.5, y: -24}
+        - {x: 11.5, y: -32}
+        - {x: -6.5, y: -32}
+        - {x: -17.5, y: -28}
+        - {x: -23.5, y: -22}
+        - {x: -28.5, y: -16}
+        - {x: -31.5, y: -9}
+        - {x: -31.5, y: 3}
+        - {x: -30.5, y: 11}
+        - {x: -27.5, y: 17}
+        - {x: -23.5, y: 23}
+        - {x: -16.5, y: 28}
+        - {x: -9.5, y: 32}
+        - {x: -0.5, y: 34}
+        - {x: 8.5, y: 33}
+        - {x: 16.5, y: 29}
+        - {x: 24.5, y: 22}
+        - {x: 29.5, y: 16}
+        - {x: 31.5, y: 11}
+        - {x: 33.5, y: 4}
+        - {x: 33.5, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c33350f2bcf8e70800000000000000
+      internalID: 9119731173259688963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UICircleMarked
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 672
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 20}
+        - {x: 43, y: 29}
+        - {x: 35, y: 38}
+        - {x: 25, y: 45}
+        - {x: 14, y: 50}
+        - {x: 0, y: 51}
+        - {x: -13, y: 50}
+        - {x: -28, y: 44}
+        - {x: -39, y: 35}
+        - {x: -45, y: 25}
+        - {x: -50, y: 14}
+        - {x: -51, y: 1}
+        - {x: -50, y: -15}
+        - {x: -45, y: -28}
+        - {x: -36, y: -38}
+        - {x: -25, y: -46}
+        - {x: -13, y: -51}
+        - {x: 2, y: -52}
+        - {x: 19, y: -50}
+        - {x: 31, y: -42}
+        - {x: 38, y: -34}
+        - {x: 45, y: -25}
+        - {x: 50, y: -13}
+        - {x: 51, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1120fd8fd075b21c0800000000000000
+      internalID: -4527429282869345775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 1188, y: 334}
+      - {x: 1042, y: 331}
+      - {x: 921, y: 332}
+      - {x: 811, y: 332}
+      - {x: 659, y: 336}
+      - {x: 651, y: 340}
+      - {x: 646, y: 347}
+      - {x: 646, y: 363}
+      - {x: 649, y: 386}
+      - {x: 651, y: 412}
+      - {x: 651, y: 451}
+      - {x: 648, y: 478}
+      - {x: 646, y: 496}
+      - {x: 646, y: 509}
+      - {x: 655, y: 516}
+      - {x: 683, y: 517}
+      - {x: 736, y: 518}
+      - {x: 818, y: 519}
+      - {x: 926, y: 519}
+      - {x: 1038, y: 518}
+      - {x: 1129, y: 517}
+      - {x: 1186, y: 517}
+      - {x: 1199, y: 513}
+      - {x: 1203, y: 501}
+      - {x: 1204, y: 487}
+      - {x: 1201, y: 472}
+      - {x: 1197, y: 450}
+      - {x: 1198, y: 421}
+      - {x: 1198, y: 387}
+      - {x: 1200, y: 363}
+      - {x: 1201, y: 348}
+      - {x: 1197, y: 338}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

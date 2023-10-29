@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da7fc9e11b44c5bb2828cde68842ca5, type: 3}
+  m_Name: WallConfig
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: -4601530500825503701, guid: 5665fea725f71ed42b098de3f4d3f551, type: 3}
+  TimeAddAlpha: 0.01
+  TimeOfLive: 10
+  TimeRemoveAlpha: 0.01
+  DeltaAddAlpha: 0.01
+  DeltaRemoveAlpha: 0.01
+  RespawnTime: 15

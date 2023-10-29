@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c01e68bea348e59bd4cd97ae418de7, type: 3}
+  m_Name: 4 YellowApple
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: 21300000, guid: 2b9789e5496eab64ba61922d98d27081, type: 3}
+  PointForEating: -3
+  WillAddParts: -3
+  BoostSpeed: 0
+  TimeBoostingSpeed: 0
+  TimeAddAlpha: 0.1
+  TimeOfLive: 15
+  TimeRemoveAlpha: 0.1
+  DeltaAddAlpha: 0.1
+  DeltaRemoveAlpha: 0.1
+  RespawnTime: 15
