@@ -17,11 +17,6 @@ namespace ArcadeSnake {
                 .Bind<InputState>()
                 .AsSingle()
                 .NonLazy();
-            
-            Container
-                .Bind<MiographInputHandler>()
-                .AsSingle()
-                .NonLazy();
         }
     }
 }

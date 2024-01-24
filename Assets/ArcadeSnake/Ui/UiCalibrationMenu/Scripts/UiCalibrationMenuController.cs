@@ -10,7 +10,6 @@ namespace ArcadeSnake
         private TickableManager _tickableManager;
         private readonly AudioPlayerController _audioPlayerController;
         private UiCalibrationMenu _calibrationMenu;
-        private MiographInputHandler _inputHandler;
         private MiographInputConfig _miographInputConfig;
 
         private int _counter;
@@ -39,14 +38,12 @@ namespace ArcadeSnake
 
         public UiCalibrationMenuController(
             IUIService uiService, 
-            MiographInputHandler inputHandler,
             MiographInputConfig miographInputConfig,
             TickableManager tickableManager,
             AudioPlayerController audioPlayerController
         )
         {
             _uiService = uiService;
-            _inputHandler = inputHandler;
             _miographInputConfig = miographInputConfig;
             _tickableManager = tickableManager;
             _audioPlayerController = audioPlayerController;
@@ -74,8 +71,6 @@ namespace ArcadeSnake
             _calibrationMenu.OnNoClickEvent += OnNoClickHandler;
             _calibrationMenu.TextInstruction.text = $"You can calibrate miograph for you own";
             
-            _inputHandler.RightHandEvent += RightHandler;
-            _inputHandler.LeftHandEvent += LeftHandler;
         }
 
         private void OnStartCalibrationClickHandler(object sender, EventArgs e)
@@ -185,9 +180,6 @@ namespace ArcadeSnake
             
             _uiService.Hide<UiCalibrationMenu>();
             _uiService.Show<UiMainMenu>();
-            
-            _inputHandler.RightHandEvent -= RightHandler;
-            _inputHandler.LeftHandEvent -= LeftHandler;
         }
         public void OnYesClickHandler(object sender, EventArgs e)
         {

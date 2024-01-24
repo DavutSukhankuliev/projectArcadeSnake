@@ -5,8 +5,6 @@ namespace ArcadeSnake
 {
     public class UiMainMenuController
     {
-        private readonly MiographInputHandler _inputHandler;
-        private readonly MiographNetworkController _networkController;
         private readonly SnakeMovement _snakeMovement;
         private readonly AudioPlayerController _audioPlayerController;
         
@@ -20,16 +18,12 @@ namespace ArcadeSnake
 
         public UiMainMenuController(
             IUIService uiService,
-            MiographInputHandler inputHandler,
-            MiographNetworkController networkController,
             SnakeMovement snakeMovement, 
             GameSettingsConfig gameSettingsConfig,
             AudioPlayerController audioPlayerController
             )
         {
             _uiService = uiService;
-            _inputHandler = inputHandler;
-            _networkController = networkController;
             _snakeMovement = snakeMovement;
             _gameSettingsConfig = gameSettingsConfig;
             _audioPlayerController = audioPlayerController;
@@ -71,8 +65,6 @@ namespace ArcadeSnake
             _audioPlayerController.PauseMainMenuMusic();
 
             _snakeMovement.StartGame();
-           
-            _inputHandler.CreateInput(_networkController);
             
         }
         private void OnCalibrationClickHandler(object sender, EventArgs e)
@@ -84,8 +76,6 @@ namespace ArcadeSnake
             _uiService.Hide<UiMainMenu>();
             
             _uiService.Show<UiCalibrationMenu>();
-            
-            _inputHandler.CreateInput(_networkController);
         }
         private void OnAudioToggleValueChangedHandler(object sender, bool e)
         {

@@ -3514,8 +3514,6 @@ GameObject:
   - component: {fileID: 1575150388}
   - component: {fileID: 1575150389}
   - component: {fileID: 1575150390}
-  - component: {fileID: 1575150392}
-  - component: {fileID: 1575150391}
   - component: {fileID: 1575150393}
   - component: {fileID: 1575150394}
   - component: {fileID: 1575150395}
@@ -3561,8 +3559,6 @@ MonoBehaviour:
   - {fileID: 1575150386}
   - {fileID: 1575150389}
   - {fileID: 1575150387}
-  - {fileID: 1575150392}
-  - {fileID: 1575150391}
   - {fileID: 1575150394}
   - {fileID: 1575150395}
   _installerPrefabs: []
@@ -3668,32 +3664,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiRootPrefab: {fileID: 2711339153312866041, guid: 40d240a73964fdd49b7358b025c54035, type: 3}
---- !u!114 &1575150391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575150382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da3c947a7ef7450b9ebfede981fc13e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animSettingsObject: {fileID: 11400000, guid: 503a9e4acf22b5e4aad32891507f78e0, type: 2}
---- !u!114 &1575150392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575150382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1201ada3ccc94092a94cfeae216992d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _miographSettings: {fileID: 11400000, guid: f9aea29153df423458c393c410304c5c, type: 2}
 --- !u!114 &1575150393
 MonoBehaviour:
   m_ObjectHideFlags: 0
